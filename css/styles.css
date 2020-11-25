@@ -1,0 +1,251 @@
+body{
+    font-family: yekan;
+}
+
+.container-fluid{
+    max-width: 1220px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*=========================================================
+	01 -> Head
+===========================================================*/
+
+#head-tools{
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#head-tools ul{
+    margin-bottom: 10px;
+}
+
+#head-tools ul a{
+    color: #777;
+}
+
+#head-tools .fa-heart:hover{
+    color: #a04239;
+}
+
+#head-tools .fa-user:hover{
+    color: #0f6674;
+}
+
+#head-tools .fa-shopping-cart:hover{
+    color: #28a745;
+}
+
+@media (min-width: 768px) {
+
+    #head-tools ul a:hover{
+        color: #a04239;
+    }
+}
+
+
+
+#head-tools ul i{
+    margin-left: 8px;
+}
+
+#head-tools li .badge{
+    position: relative;
+    top: -20px;
+    right: -45px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    #head-tools {
+        font-size: 12px;
+        padding: 6px 15px 12px 15px;
+    }
+
+    #head-tools li {
+        margin-left: 40px;
+    }
+
+    #head-tools #basket {
+        font-size: 14px;
+    }
+
+    #head-tools #basket .badge {
+        font-size: 14px;
+    }
+
+
+    #head-tools li .badge {
+        position: relative;
+        top: -10px;
+        right: -27px;
+        font-size: 9px;
+    }
+
+    #head-tools li .fa-heart {
+        margin-left: -8px;
+    }
+
+    #head-tools #basket .badge {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+}
+
+/*=========================================================
+	02 -> Basket
+===========================================================*/
+
+#basket a{
+    color: white;
+    border-top-left-radius: 1.5rem !important;
+    border-bottom-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
+    display: flex;
+    overflow: hidden;
+}
+
+#basket .basket-icon{
+    background-color: #c92844;
+    padding: 5px 15px;
+}
+
+#basket .basket-text{
+    padding: 5px 15px;
+    background-color: #d10024;
+}
+
+.my-shadow{
+    box-shadow: 0 1px 2px 0 rgba(0 , 0 , 0 , 0.1);
+}
+
+/*=========================================================
+	03 -> Logo
+===========================================================*/
+
+#logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/*=========================================================
+	04 -> Top menu
+===========================================================*/
+
+#top-menu{
+    font-size: 13px;
+    position: relative;
+}
+
+#top-menu nav{
+    padding: 20px;
+    border-bottom: 2px solid #E4E7ED;
+    border-top: 3px solid #D10024;
+}
+
+#top-menu .nav-link{
+    color: #555;
+    padding: 6px 15px;
+}
+
+#top-menu .nav-item:hover{
+    color: #D10024;
+
+}
+
+@media (min-width: 768px){
+
+    #top-menu nav{
+        padding: 0;
+    }
+}
+
+
+
+/*=========================================================
+	05 -> Search
+===========================================================*/
+
+@media (min-width: 768px) {
+    #search {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    #search{
+        width: 440px;
+    }
+}
+
+/*=========================================================
+	06 -> Main
+===========================================================*/
+
+main{
+    background-color: #eeeff1;
+    padding: 15px 0;
+}
+
+/*=========================================================
+	07 -> Main nav
+===========================================================*/
+
+.main-nav>li>a {
+    padding: 20px 0px;
+}
+
+.main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
+    color: #D10024;
+    background-color: transparent;
+}
+
+.main-nav>li>a:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #D10024;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
+    width: 100%;
+}
+
+.header-ctn li.nav-toggle {
+    display: none;
+}
+
+
+/*----------------------------*\
+	Search
+\*----------------------------*/
+
+
+#button-search{
+
+    width: 100px;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-top-left-radius: 1.5rem !important;
+    border-bottom-left-radius: 1.5rem !important;
+}
+
+#button-search1{
+
+    width: 50px;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-top-left-radius: 1.5rem !important;
+    border-bottom-left-radius: 1.5rem !important;
+}
