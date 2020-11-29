@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75922058-ce49-4211-9da5-54c0e16abba8" name="Default Changelist" comment="add project">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my theme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my theme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/wow.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,7 @@
       <workItem from="1606368303438" duration="14554000" />
       <workItem from="1606447938158" duration="12735000" />
       <workItem from="1606536910958" duration="188000" />
+      <workItem from="1606682072610" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1606306737833</created>
